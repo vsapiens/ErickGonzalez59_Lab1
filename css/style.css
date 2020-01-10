@@ -1,7 +1,7 @@
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: gray;
+  color: #555;
   font-weight: 100;
 }
 img {
@@ -14,15 +14,22 @@ img {
 h1 {
   text-align: left;
   size: 20px;
-  color: black;
+  color: rgb(31, 71, 132);
 }
 h2 {
-  color: rgb(25, 89, 201);
+  background-color: rgb(25, 89, 201);
+  opacity: 90%;
+  color: whitesmoke;
   font-weight: bold;
+  padding: 10px;
 }
 h3 {
   text-align: left;
   font-weight: 100;
+}
+h4 {
+  color: black;
+  font-weight: bold;
 }
 th {
   font-weight: lighter;
@@ -31,7 +38,7 @@ th {
 }
 .title {
   font-weight: bold;
-  color: black;
+  color: whitesmoke;
 }
 .projectTitle {
   color: black;
@@ -46,4 +53,27 @@ th {
 }
 #address {
   text-align: left;
+}
+table {
+  border: 1px solid #eee;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+th,
+td {
+  color: #999;
+  border: 1px solid #eee;
+  padding: 15px 35px;
+}
+th {
+  color: white;
+  background-color: rgb(25, 89, 201);
+  text-align: center;
+  opacity: 80%;
+}
+tr:hover {
+  background-color: #f4f4f4;
+}
+td:hover {
+  color: #555;
 }
