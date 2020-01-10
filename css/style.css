@@ -1,0 +1,49 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: gray;
+  font-weight: 100;
+}
+img {
+  size: 5px;
+  border-radius: 10%;
+  width: 120px;
+  float: left;
+  margin: 0px 20px 0px 20px;
+}
+h1 {
+  text-align: left;
+  size: 20px;
+  color: black;
+}
+h2 {
+  color: rgb(25, 89, 201);
+  font-weight: bold;
+}
+h3 {
+  text-align: left;
+  font-weight: 100;
+}
+th {
+  font-weight: lighter;
+  text-align: justify;
+  padding: 10px 20px;
+}
+.title {
+  font-weight: bold;
+  color: black;
+}
+.projectTitle {
+  color: black;
+  font-weight: bold;
+}
+.info > p {
+  text-align: left;
+}
+#major {
+  font-weight: bold;
+  font-style: italic;
+}
+#address {
+  text-align: left;
+}
